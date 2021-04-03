@@ -1,4 +1,13 @@
 <template>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>THAITHEE: เอกสาร</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+  </head>
   <div class="sec1"> 
     <div>
       <table>
@@ -15,13 +24,45 @@
   
   <div class="nav">
     <ul>
-      <li style="margin-left:350px;"><a href="#">หน้าแรก</a></li>
-      <li><a href="#">เอกสาร</a></li>
+      <li style="margin-left:350px;"><router-link to="/">หน้าแรก</router-link></li>
+      <li><router-link to="/document">เอกสาร</router-link></li>
       <li><a href="#">บอร์ด</a></li>
       <li><a href="#">ติดต่อ</a></li>
     </ul>
   </div>
   <router-view/>
+  <div class="footer" style="width: 1520px; background-color: #1D1D36;">
+    <div>
+      <table>
+        <tr style="color: #A4A3E7;">
+          <td rowspan="5"><img src="../src/assets/thaithee-white.png" alt="Cinque Terre" width="300" height="170"></td>
+          <td>QUICK NAVIGATION</td>
+          <td>STAY CONNECTED</td>
+          <td>GET IN TOUCH</td>
+        </tr>
+        <tr>
+          <td><a href="homepage.html">หน้าแรก</a></td>
+          <td><a href="#">Facebook</a></td>
+          <td><a>Tel: 123-456-7890</a></td>
+        </tr>
+        <tr>
+          <td><a href="document.html">เอกสาร</a></td>
+          <td><a href="#">Twitter</a></td>
+          <td><a href="#">thaithee@gmail.com</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">บอร์ด</a></td>
+          <td><a href="#">Instagram</a></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="#">ติดต่อ</a></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
 </template>
 
 <style>
@@ -36,7 +77,7 @@ div {
 }
 .sec1 table{
     margin-left: 80px;
-    width: 1400px;
+    width: 1450px;
 }
 .sec1 a{
     text-decoration: none;
@@ -59,7 +100,7 @@ body{
     list-style: none;
     background-color: #1D1D36;
     text-align: left;
-    width: 1500px;
+    width: 1520px;
 }
 .nav li {
     display:inline-block;
@@ -107,5 +148,4 @@ h2 {
     left: 50px; 
     width: 100%; 
 }
-
 </style>
