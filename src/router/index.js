@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import homepage from '../views/Homepage.vue'
 import document from '../views/Document.vue'
+import register from '../Register.vue'
+import login from '../Login.vue'
 import document_1 from '../views/Document_1.vue'
 import document_1_1 from '../views/Document_1(1).vue'
 import document_1_2 from '../views/Document_1(2).vue'
@@ -18,6 +20,7 @@ import document_10 from '../views/Document_10.vue'
 import document_11 from '../views/Document_11.vue'
 import document_11_1 from '../views/Document_11(1).vue'
 import document_12 from '../views/Document_12.vue'
+
 const routes = [
   {
     path: '/',
@@ -113,6 +116,16 @@ const routes = [
     path: '/บันทึกฐานะแห่งครอบครัว',
     name: 'Document12',
     component: document_12
+  },
+  {
+    path: '/สมัครสมาชิก',
+    name: 'register',
+    component: register
+  },
+  {
+    path: '/เข้าสู่ระบบ',
+    name: 'login',
+    component: login
   }
 ]
 

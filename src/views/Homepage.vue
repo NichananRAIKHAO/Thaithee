@@ -2,8 +2,8 @@
     <div class="homepage" style="width: 1520px; height: 800px;">
       <h2 style="font-size: 80px; font-family: 'Kanit'; margin-top:250px;">ยินดีต้อนรับ</h2>
         <h2 style="margin-top:  90px; margin-left:  1px;  font-family: 'Kanit'; margin-top:340px;">เว็บไซต์รวบรวมการติดต่อราชการ</h2>
-        <button class="button button4" style="margin-top:280px;">สมัครสมาชิก</button>
-        <button class="button button4" style="transform:translate(-280%, -100%); background-color:white; color:#1D1D36; margin-top:280px;">เข้าสู่ระบบ</button>
+        <button class="button button4" style="margin-top:280px;"><router-link to="/สมัครสมาชิก">สมัครสมาชิก</router-link></button>
+        <button class="button button4" style="transform:translate(-280%, -100%); background-color:white; color:#1D1D36; margin-top:280px;"><router-link to="/เข้าสู่ระบบ">เข้าสู่ระบบ</router-link></button>
     </div>
     
 </template>

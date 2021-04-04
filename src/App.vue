@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
   </head>
+  <div v-if="!['login', 'register'].includes($route.name)">
   <div class="sec1"> 
     <div>
       <table>
@@ -62,6 +63,11 @@
         </tr>
       </table>
     </div>
+  </div>
+  </div>
+
+  <div v-else>
+    <router-view/>
   </div>
 </template>
 
