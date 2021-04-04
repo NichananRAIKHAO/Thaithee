@@ -1,23 +1,21 @@
 <template>
  <div style="width: 1520px; height: 3000px;">
   <div>
-      <h1 style="font-family: 'Kanit'; font-size: 50px; margin-top: 60px; text-align: center;"><b>ใบขับขี่รถยนต์ส่วนบุคคลชั่วคราว</b></h1>
-      <p style="font-family: 'Kanit'; font-size: 20px; margin-top: 20px; text-align: center;"> สำหรับผู้ที่ทำใบขับขี่ครั้งแรก มีอายุการใช้งาน 2 ปี </p>
-      <div class="container" style="margin-top: 40px; margin-left:100px;">
-       <a><img src="../assets/1.png" alt="Cinque Terre" width="120" height="120"><span>เตรียมเอกสาร</span></a>
-        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="40" height="40" style="margin-top:55px;">
+      <h1 style="font-family: 'Kanit'; font-size: 50px; margin-top: 60px; text-align: center;"><b>การจดทะเบียนสมรส</b></h1>
+      <p style="font-family: 'Kanit'; font-size: 20px; margin-top: 20px; text-align: center;"> เอกสารทางกฎหมายที่ยืนยันความสัมพันธ์ของคู่แต่งงาน ใช้เป็นหลักฐานในการยืนยันสิทธิ์ต่างๆ<br>ที่จะเกิดขึ้นระหว่างสามี-ภรรยา ให้สามารถได้สิทธิ์อย่างถูกกฎหมายและเป็นไปตามที่ควรได้รับ</p>
+      <div class="container" style="margin-top: 40px; width: 1500px; margin-left: 130px;">
+        <a><img src="../assets/1.png" alt="Cinque Terre" width="120" height="120"><span>เตรียมเอกสาร</span></a>
+        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="70" height="70" style="margin-top:50px;">
         <a><img src="../assets/2.png" alt="Cinque Terre" width="120" height="120" style="margin-right: 5px;"><span>ยื่นเอกสารที่สำนักงานเขต</span></a>
-        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="40" height="40" style="margin-top:55px;">
+        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="70" height="70" style="margin-top:50px;">
         <a><img src="../assets/3.png" alt="Cinque Terre" width="120" height="120" style="margin-right: 5px;"><span>ตรวจสอบเอกสาร</span></a>
-        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="40" height="40" style="margin-top:55px;">
-        <a><img src="../assets/12.png" alt="Cinque Terre" width="120" height="120" style="margin-right: 5px;"><span>ทดสอบสมรรถภาพร่างกาย</span></a>
-        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="40" height="40" style="margin-top:55px;">
-        <a><img src="../assets/13.png" alt="Cinque Terre" width="120" height="120" style="margin-right: 5px;"><span>อบรมการขับขี่ อย่างน้อย 5 ชั่วโมง (จองคิวล่วงหน้า)</span></a>
-        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="40" height="40" style="margin-top:55px;">
-        <a><img src="../assets/14.png" alt="Cinque Terre" width="120" height="120"><span>ทดสอบข้อเขียนและขับรถ</span></a>      
-        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="40" height="40" style="margin-top:55px;">
-        <a><img src="../assets/15.png" alt="Cinque Terre" width="120" height="120"><span>ออกใบขับขี่รถยนต์ส่วนบุคคลชั่วคราว</span></a>   
-      </div>
+        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="70" height="70" style="margin-top:50px;">
+        <a><img src="../assets/7.png" alt="Cinque Terre" width="120" height="120" style="margin-right: 5px;"><span>พิจารณาคุณสมบัติ</span></a>
+        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="70" height="70" style="margin-top:50px;">
+        <a><img src="../assets/8.png" alt="Cinque Terre" width="120" height="120" style="margin-right: 5px;"><span>จดทะเบียนสมรส</span></a>
+        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="70" height="70" style="margin-top:50px;">
+        <a><img src="../assets/6.png" alt="Cinque Terre" width="120" height="120"><span>เสร็จสิ้น</span></a>      
+        </div>
     
 
       <div>
@@ -176,7 +174,7 @@
 
 <script>
 export default {
-    name:"document_1_1"
+    name:"document_7"
 }
 </script>
 
@@ -184,9 +182,9 @@ export default {
   .container a {
         display: inline-block;
         vertical-align: top; /* Adjust if multi-line text */
-        margin: 5px;
+        margin: 10px;
         padding: 5px;
-        width: 120px;
+        width: 130px;
         color: #333;
         text-align: center;
         text-decoration: none;

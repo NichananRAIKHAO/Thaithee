@@ -2,24 +2,24 @@
       <div style="width: 1520px; height: 1125px;">
         <div class="w3-center" style="margin:100px; margin-left: 350px; color: white;">
           <div class="w3-bar" style="font-size: 20px;">
-            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><a href="document_1.html">ใบขับขี่</a></button>
-            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><a href="document_2.html">บัตรประชาชน</a></button>
-            <button class="w3-button w3-round-xxlarge" style="background-color:#3D3C92;"><a href="document_3.html">หนังสือเดินทาง</a></button>
+            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><router-link to="/ใบขับขี่">ใบขับขี่</router-link></button>
+            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><router-link to="/บัตรประชาชน">บัตรประชาชน</router-link></button>
+            <button class="w3-button w3-round-xxlarge" style="background-color:#3D3C92;"><router-link to="/หนังสือเดินทาง">หนังสือเดินทาง</router-link></button>
           </div>
           <div class="w3-bar" style="margin-top:100px; font-size: 20px;">
-            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><a href="document_4.html">แจ้งเกิด</a></button>
-            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><a href="document_5.html">แจ้งตาย</a></button>
-            <button class="w3-button w3-round-xxlarge" style="background-color:#3D3C92;"><a href="document_6.html">แจ้งย้าย</a></button>
+            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><router-link to="/แจ้งเกิด">แจ้งเกิด</router-link></button>
+            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><router-link to="/แจ้งตาย">แจ้งตาย</router-link></button>
+            <button class="w3-button w3-round-xxlarge" style="background-color:#3D3C92;"><router-link to="/แจ้งย้าย">แจ้งย้าย</router-link></button>
           </div>
           <div class="w3-bar" style="margin-top:100px; font-size: 20px;">
-            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><a href="document_7.html">จดทะเบียนสมรส</a></button>
-            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><a href="document_8.html">จดทะเบียนหย่า</a></button>
-            <button class="w3-button w3-round-xxlarge" style="background-color:#3D3C92;"><a href="document_9.html">พินัยกรรม</a></button>
+            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><router-link to="/จดทะเบียนสมรส">จดทะเบียนสมรส</router-link></button>
+            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><router-link to="/จดทะเบียนหย่า">จดทะเบียนหย่า</router-link></button>
+            <button class="w3-button w3-round-xxlarge" style="background-color:#3D3C92;"><router-link to="/พินัยกรรม">พินัยกรรม</router-link></button>
           </div>
           <div class="w3-bar" style="margin-top:100px; font-size: 20px;">
-            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><a href="document_10.html">รับรองบุตร</a></button>
-            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><a href="document_11.html">ติดต่อรับศพ</a></button>
-            <button class="w3-button w3-round-xxlarge" style="background-color:#3D3C92;"><a href="document_12.html">บันทึกฐานะแห่งครอบครัว</a></button>
+            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><router-link to="/รับรองบุตร">รับรองบุตร</router-link></button>
+            <button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color:#3D3C92;"><router-link to="/ติดต่อรับศพ">ติดต่อรับศพ</router-link></button>
+            <button class="w3-button w3-round-xxlarge" style="background-color:#3D3C92;"><router-link to="/บันทึกฐานะแห่งครอบครัว">บันทึกฐานะแห่งครอบครัว</router-link></button>
           </div>
           </div>
       </div>
@@ -37,9 +37,6 @@ export default {
     font-size: 25px;
     height: 150px;
     width: 200px;
-  }
-  .w3-yellow{
-    background-color:#3D3C92;
   }
   a:link {text-decoration: none;} 
 

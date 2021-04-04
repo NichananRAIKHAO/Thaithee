@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <title>THAITHEE: เอกสาร</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
@@ -25,7 +25,7 @@
   <div class="nav">
     <ul>
       <li style="margin-left:350px;"><router-link to="/">หน้าแรก</router-link></li>
-      <li><router-link to="/document">เอกสาร</router-link></li>
+      <li><router-link to="/เอกสาร">เอกสาร</router-link></li>
       <li><a href="#">บอร์ด</a></li>
       <li><a href="#">ติดต่อ</a></li>
     </ul>
@@ -41,12 +41,12 @@
           <td>GET IN TOUCH</td>
         </tr>
         <tr>
-          <td><a href="homepage.html">หน้าแรก</a></td>
+          <td><router-link to="/">หน้าแรก</router-link></td>
           <td><a href="#">Facebook</a></td>
           <td><a>Tel: 123-456-7890</a></td>
         </tr>
         <tr>
-          <td><a href="document.html">เอกสาร</a></td>
+          <td><router-link to="/เอกสาร">เอกสาร</router-link></td>
           <td><a href="#">Twitter</a></td>
           <td><a href="#">thaithee@gmail.com</a></td>
         </tr>
